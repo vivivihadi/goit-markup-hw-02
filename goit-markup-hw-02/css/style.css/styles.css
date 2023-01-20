@@ -15,10 +15,7 @@ ol {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #4d5ae5;
 }
 .logo-studio {
@@ -27,10 +24,7 @@ ol {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.3px;
-  display: flex;
-  align-items: center;
   letter-spacing: 0.03em;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .menu-list {
@@ -64,8 +58,8 @@ body {
   line-height: 1.07px;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
 }
+
 .advantages-h {
   font-family: "Roboto", sans-serif;
   font-style: normal;
@@ -189,6 +183,21 @@ address {
 }
 
 /* =========== Portfolio =========== */
+.button-text{
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
+/* IRIS */
+color: #4D5AE5;
+
+}
 .button-st {
   box-sizing: border-box;
   display: flex;
@@ -229,3 +238,14 @@ address {
   order: 1;
   flex-grow: 0;
 }
+.last {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+
+  /*color: #E7E9FC;
+}
+
